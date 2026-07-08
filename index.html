@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderGo - Travel Agency</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">WanderGo</div>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+<section class="hero" id="home">
+
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="D:\Collage Project\WanderGo\images\hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <h1>Explore Kerala With WanderGo</h1>
+        <p>Discover God's Own Country</p>
+        <a href="#packages" class="btn">Explore Packages</a>
+    </div>
+
+</section>
+
+<section id="about" class="about container">
+    <h2>About Us</h2>
+    <p>WanderGo is a modern travel agency that helps people discover amazing destinations across India and around the world. We provide affordable packages and unforgettable experiences.</p>
+</section>
+
+<section id="destinations" class="destinations container">
+    <h2>Popular Destinations</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="D:\Collage Project\WanderGo\images\destination1.jpg" alt="Maldives">
+            <h3>Maldives</h3>
+            <p>Crystal clear beaches and luxury resorts.</p>
+        </div>
+
+        <div class="card">
+            <img src="D:\Collage Project\WanderGo\images\destination2.jpg" alt="Dubai">
+            <h3>Dubai</h3>
+            <p>Experience modern architecture and desert adventures.</p>
+        </div>
+
+        <div class="card">
+            <img src="D:\Collage Project\WanderGo\images\destination3.jpg" alt="Kerala">
+            <h3>Kerala</h3>
+            <p>God's Own Country with backwaters and greenery.</p>
+        </div>
+    </div>
+</section>
+
+<section id="packages" class="packages container">
+    <h2>Tour Packages</h2>
+
+    <table>
+        <tr>
+            <th>Package</th>
+            <th>Days</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>Kerala Tour</td>
+            <td>4 Days</td>
+            <td>₹14,999</td>
+        </tr>
+
+        <tr>
+            <td>Dubai Tour</td>
+            <td>5 Days</td>
+            <td>₹59,999</td>
+        </tr>
+
+        <tr>
+            <td>Maldives Tour</td>
+            <td>6 Days</td>
+            <td>₹74,999</td>
+        </tr>
+    </table>
+</section>
+
+<section id="gallery" class="gallery container">
+    <h2>Gallery</h2>
+
+    <div class="gallery-grid">
+        <img src="images/gallery1.jpg" alt="">
+        <img src="images/gallery2.jpg" alt="">
+        <img src="images/gallery3.jpg" alt="">
+        <img src="images/gallery4.jpg" alt="">
+    </div>
+</section>
+
+<section id="contact" class="contact container">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email">
+        <input type="tel" placeholder="Phone">
+        <textarea rows="5" placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 WanderGo Travel Agency. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
